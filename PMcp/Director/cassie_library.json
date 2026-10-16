@@ -1,0 +1,525 @@
+[
+  {
+    "id": "shift_start",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Начало смены",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Ночная смена в подземном секторе «<color=#FA8072>Containment-Zone-727</color>» начинается.",
+    "spoken": "$PITCH_0.9 BELL_START $PITCH_0.95 . EVENING SHELTER IN UNDER GROUND SECTOR OF CONTAINMENT ZONE NUMBER 727 IS STARTED"
+  },
+  {
+    "id": "shift_end",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Конец смены, выход к воротам",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Внимание всему персоналу: Ваша смена завершена, вам требуется пройти к выходным воротам, для выхода из подземного сектора комплекса.",
+    "spoken": "$PITCH_0.92 BELL_START $PITCH_0.95 . ATTENTION ALL SITE PERSONNEL . YOUR EVENING SHELTER HAS END . PLEASE PROCEED TO THE EXIT GATE FOR LEAVE FROM UNDER GROUND SECTOR . $PITCH_0.89 BELL_END"
+  },
+  {
+    "id": "break_end",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Конец перерыва, вернуться к работе",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Время отдыха окончено. персонал, немедленно направиться на ваши рабочие места и приступить работе.",
+    "spoken": "$PITCH_0.89 .G5 $PITCH_0.9 .G5 $PITCH_0.78 .G6 . $PITCH_0.95 ATTENTION . BEST TIME ENDED . PERSONNEL NEED TO PROCEED TO LOCATION OF JOB AND CONTINUE WORKING . IMMEDIATELY . . . $PITCH_0.76 BELL_END ."
+  },
+  {
+    "id": "classd_cells_open",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Камеры класса D открыты, СБ в ЛЗС",
+    "subtitles": "<color=red>Внимание!\nДвери отсека <color=orange>CD-01</color> были открыты.\nВсем свободным <color=blue>Сотрудникам Безопасности</color> немедленно явиться в <color=yellow>Лёгкую Зону Содержания.</color>",
+    "spoken": "$PITCH_0.15 .G4 $PITCH_0.16 .G4 $PITCH_0.15 .G4 $PITCH_0.95 . EMERGENCY ALERT . CLASSD CHAMBER HAS BEEN OPENED . ALL AVAILABLE SECURITY PERSONNEL REPORT TO LIGHT CONTAINMENT ZONE IMMEDIATELY $PITCH_0.8 .G5 .G5 $PITCH_0.5 .G3"
+  },
+  {
+    "id": "classd_alarm",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Аварийная тревога: двери CD-01 открыты",
+    "subtitles": "<b><color=#646eff>C.A.S.S.I.E</color> | <color=#ba1818>[Аварийная тревога]</color>: двери сектора <color=#EF7D0B>CD-01</color> были открыты. \n<b><color=#646eff>C.A.S.S.I.E</color> | <color=#6ccc23>Активирован</color>: [1 АКТ]. \n<b><color=#646eff>C.A.S.S.I.E</color> | Всему свободному <color=#727472>Персоналу службы безопасности</color>: немедленно явиться в <color=yellow>[ЛЗС]</color>.",
+    "spoken": "$PITCH_0.27 .G4 $PITCH_0.25 .G4 . $PITCH_0.92 EMERGENCY ALARM . C D 0 1 DOORS HAVE BEEN OPENED . . ACTIVATED 1 ALARM LEVEL . ALL AVAILABLE SECURITY PERSONNEL REPORT TO LIGHT CONTAINMENT ZONE IMMEDIATELY $PITCH_0.8 .G5 .G5 $PITCH_0.5 .G3"
+  },
+  {
+    "id": "classd_return",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Классу D вернуться в камеры, иначе задержание",
+    "subtitles": "<b> <color=#8B8B05>ВНИМАНИЕ</color> | <color=#EF7D0B>Персоналу класса D</color>: требуется немедленно вернуться в свой сектор содержания, иначе вы будете задержаны.",
+    "spoken": "$PITCH_0.9 .G5 .G5 $PITCH_0.98 ATTENTION TO CLASSD PERSONNEL . . KEEP IMMEDIATELY RETURN YOUR ALIVE CONTAINMENT SECTOR . IN OTHER THING . YOU WILL BE ARREST . . $PITCH_0.8 .G5 .G5 $PITCH_0.3 .G5"
+  },
+  {
+    "id": "classd_last_warning",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Последнее предупреждение классу D (ликвидация)",
+    "subtitles": "<b> <color=#8B8B05>ВНИМАНИЕ</color> | <color=#EF7D0B>Персоналу класса D</color>: требуется немедленно вернуться в свой сектор содержания, иначе вы будете ликвидированы.",
+    "spoken": "$PITCH_0.9 .G5 .G5 $PITCH_0.98 ATTENTION TO CLASSD PERSONNEL . . KEEP IMMEDIATELY RETURN YOUR ALIVE CONTAINMENT SECTOR . IN OTHER THING . YOU WILL BE TERMINATION . . $PITCH_0.8 .G5 .G5 $PITCH_0.3 .G5"
+  },
+  {
+    "id": "gate_control_fault",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Сбой контроля гермоворот, сканирование",
+    "subtitles": "<b><color=#F0E68C>C.A.S.S.I.E.</color> | Внимание всему персоналу: Обнаружена поломка в модуле контроля гермоворот. Инициируется автономная процедура сканирования системы гермоворот.",
+    "spoken": "$PITCH_0.137 .G4 $PITCH_0.13 .G4 $PITCH_0.95 ATTENTIONALLPERSONNEL . DETECTED THE BREAK DOWN MODULE GATE CONTROL . THE INITIATED AUTOMATIC PROCEDURE IS SCANNED BY THE GATE CONTROL SYSTEM"
+  },
+  {
+    "id": "breach_report",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "НОУС: нарушение содержания SCP (номер цифрами через пробел, класс)",
+    "subtitles": "<b><color=#FF4500>C.A.S.S.I.E.</color> | Внимание: Было зафиксировано нарушение особого условия содержания «<color=#DAA520>SCP-049</color>» класса «<color=#DAA520>EUCLID</color>». В <color=#FAFAD2>Командный Центр</color> был отправлен отчет о нарушении условий герметизации субъекта.",
+    "spoken": ". . . . . $PITCH_0.117 .G4 $PITCH_0.11 .G4 $PITCH_0.95 . ATTENTION . WAS DETECTED CONTAINMENT BREACH SCPSUBJECT 0 4 9 CLASS EUCLID . A REPORT ON THE CONTAINMENT BREACH OF CONDITION WAS SEND TO THE COMMAND CENTER"
+  },
+  {
+    "id": "breach_evacuate",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "НОУС + эвакуация персонала + тесла-ворота",
+    "subtitles": "<b><color=#00FF00>[Оповещение]</color></b> Внимание! \n<b><color=#00FF00>[Оповещение]</color></b> Обнаружено нарушение условий содержания SCP-106... \n<b><color=#00FF00>[Оповещение]</color></b> Всему персоналу назначено пройти в эвакуационный пункт... \n<b><color=#00FF00>[Оповещение]</color></b> Тесла-ворота активированы...",
+    "spoken": "$PITCH_0.97 . . . ATTENTION . CONTAINMENT BREACH OF SCP 1 0 6 WAS DETECTED . . ALL PERSONNEL MUST PROCEED TO EVACUATION SHELTER . . TESLA GATES ARE ACTIVATED"
+  },
+  {
+    "id": "scp106_warning",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Тревожный признак у камеры SCP-106",
+    "subtitles": "<b><color=#F0E68C>C.A.S.S.I.E.</color> | Внимание всему персоналу: Замечено сильное загрязнение коррозии на 1-ом слою куба камеры содержания «<color=#A52A2A>SCP-106</color>».",
+    "spoken": "$PITCH_0.117 .G4 $PITCH_0.12 .G4 $PITCH_0.95 ATTENTIONALLPERSONNEL . DETECTED THE HIGH CONTAMINATION 1 WALL CHAMBER IN THE CONTAINMENT CHAMBER SCPSUBJECT 1 0 6"
+  },
+  {
+    "id": "scp939_cryo_fault",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Сбой криокамеры SCP-939",
+    "subtitles": "<b><color=#F0E68C>C.A.S.S.I.E.</color> | Внимание всему персоналу: Зафиксирована поломка подачи азота в криокамеру содержания «<color=#A52A2A>SCP-939</color>». Запущена автономная система распознавания причины, по которой система прекратила подачу азота в криокамеру.",
+    "spoken": "$PITCH_0.117 .G4 $PITCH_0.11 .G4 $PITCH_0.95 ATTENTIONALLPERSONNEL . DETECTED THE BREAK DOWN GAS SUPPLY TO CONTAINMENT CHAMBER SCPSUBJECT 9 3 9 . THE AUTOMATIC PROCEDURE IS BECAUSE OF TO THE GAS SUPPLY BEING STOPPED OFF"
+  },
+  {
+    "id": "scp079_malware",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Вредоносное ПО в системах комплекса (SCP-079)",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Инициализируется режим самодиагностики: «<color=4DFFB8>CASSIE и Систем Комплекса</color>»: \"DMM\" модуль был досрочно <color=red>деактивирован</color>.",
+    "spoken": "DANGER . . ATTENTION TO ALL PERSONNEL . . . A NEW UNAUTHORIZED SOFTWARE HAS BEEN DETECTED IN THE COMPLEX SYSTEM . . . . SQUAD SERVICE PLEASE TERMINATED THE SOFTWARE IMMEDIATELY . . . INITIALIZING CASSIE SYSTEM . SELF DIAGNOSTIC MODE . D M M . MODULE HAS BEEN DEACTIVATED"
+  },
+  {
+    "id": "scp079_recontained",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "ВОУС SCP-079: перегрузка систем",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Инициатор: «<color=#98FB98>неизвестный пользователь</color>»",
+    "spoken": "BELL_START $PITCH_0.98 ATTENTION TO ALL PERSONNEL . FULL OVERCHARGE ALL SYSTEMS FACILITY SUCCESSFULLY INITIATED . SCP 0 7 9 CLASS EUCLID SUCCESSFULLY RECONTAINED OFFLINE . . RECONTAINMENT BY . $STUTT_0.06_0.08_5 .G4 . $PITCH_0.95 UNKNOWN PERSONNEL. . BELL_END"
+  },
+  {
+    "id": "scp079_detected",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "SCP-079 обнаружен в системах, начать ВОУС",
+    "subtitles": "<b><color=#646eff>C.A.S.S.I.E</color> | Всему персоналу: <color=#ffce6c>SCP-079</color> был обнаружен в системах учреждения. Персоналу требуется немедленно начать процедуру ВОУС для данной <color=#9A1010>аномалии</color>.",
+    "spoken": "$PITCH_0.6 .G4 .G4 .G4 $PITCH_1 . ATTENTION TO ALL PERSONNEL . . SCP 0 7 9 CLASS EUCLID DETECTED IN FACILITY SYSTEM . . PERSONNEL KEEP IMMEDIATELY STARTING PROCEDURE RECONTAINMENT FOR DESIGNATED ANOMALY . . $PITCH_0.3 .G5 $PITCH_0.2 .G5"
+  },
+  {
+    "id": "scp_termination_order",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "SCP назначен на ликвидацию",
+    "subtitles": "<b><color=#FF4500>C.A.S.S.I.E.</color> | Внимание персоналу комплекса: Были замечены повторные нападения со стороны «<color=#DAA520>SCP-049</color>» на персонал и другие виды нарушения контракта субъекта. В связи с этим были приняты меры по назначению «<color=#DAA520>SCP-049</color>» на <color=red>ликвидацию</color>.",
+    "spoken": "$PITCH_0.195 .G4 $PITCH_0.75 BELL_START $PITCH_0.95 . ATTENTION SITE PERSONNEL . AN ATTACK ON PERSONNEL BY THE SCPSUBJECT 0 4 9 AND MOST SOME BREACH TASK JOB WAS DETECTED . . AN ATTEMPT HAS BEEN TAKEN . SCPSUBJECT 0 4 9 DESIGNATED FOR TERMINATED . BELL_END"
+  },
+  {
+    "id": "escape_warning",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Предупреждение: при побеге - ликвидация МОГ",
+    "subtitles": "<b><color=#8B8B05>ВНИМАНИЕ</color> | при попытки побега на внешний участок, Вы можете быть ликвидированы <color=blue>мобильной оперативной группой</color>",
+    "spoken": "$PITCH_3 .G4 .G5 .G3 $PITCH_3.5 .G4 .G5 .G3 $PITCH_0.95 ATTENTION . IF YOU ATTEMPT TO ESCAPE TO THE OUTER AREA YOU DESTROYED IMMEDIATELY WILL BE MTFUNIT $PITCH_0.3 .G5 $PITCH_0.2 .G5"
+  },
+  {
+    "id": "mtf_request_ok",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Запрос на МОГ принят, прибытие через N минут",
+    "subtitles": "<b>КИР-запрос | Статус: <color=#6ccc23>принят</color> | Всему персоналу: <color=#00008B>МОГ Эпсилон-11</color> прибудет на объект в течении <b>30</b> минут</b>.",
+    "spoken": "BELL_START . EMERGENCY CODE . STATUS . .G1 . ACCEPTED . ATTENTION TO ALL PERSONNEL . $PITCH_0.98 MTFUNIT EPSILON 11 WILL ARRIVAL AT THE FACILITY IN TMINUS . . 30 MINUTES . $PITCH_0.8 .G5 .G5 $PITCH_0.3 .G5"
+  },
+  {
+    "id": "mtf_arrival",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "МОГ прибыла для сдерживания SCP",
+    "subtitles": "<b>Внимание</b> всему персоналу! \n<color=#003ECA>Мобильная Оперативная Группа [E-11]</color> обозначенная как «Девятихвостая лиса» \nПрибыла в комплекс, для сдерживания сбежавших <color=#EC2121>[SCP Объектов]</color>",
+    "spoken": "BELL_START ATTENTION TO ALL PERSONNEL $PITCH_1 .G1 .G1 .G2 $PITCH_1 . . MTFUNIT EPSILON 11 DESIGNATED WAS NINETAILEDFOX HASENTERED . FOR RECONTAINMENT SCPSUBJECTS $PITCH_0.8 .G5 .G5 $PITCH_0.5 .G3"
+  },
+  {
+    "id": "mtf_success",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Операция МОГ успешна, эвакуация персонала",
+    "subtitles": "<b>Приказ Мобильной Оперативной Группе <color=#00481f>[Nu-7]</color>\n<b> Операция завершена <color=green>успешно</color>\n<b>Приступайте к эвакуации оставшегося персонала и покидайте комплекс.",
+    "spoken": "$PITCH_0.5 .G3 $PITCH_0.8 .G5 $PITCH_0.95 COMMAND TO MTFUNIT NU 7 . OPERATION COMPLETED SUCCESSFULLY . PROCEED TO EVACUATE REMAINING PERSONNEL AND EXIT THE FACILITY ."
+  },
+  {
+    "id": "mtf_failed",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "МОГ уничтожена, операция провалена",
+    "subtitles": "Мобильная Оперативная Группа <color=#00481f>[NU-7]</color> была <color=red>устранена</color>\nОперация была <b><color=red>провалена</color>\n<b>Приказ оставшимся бойцам.\n<b><color=#4DFFB8>Проследуйте на вертолётную площадку для защиты, пока поддержка не прибудет в комплекс.</color>",
+    "spoken": "$PITCH_0.17 .G4 $PITCH_0.16 .G4 $PITCH_0.95 . MTFUNIT NU 7 HAS BEEN TERMINATED . OPERATION WAS FAILED . . COMMAND TO REMAINING UNIT . RETURN TO HELICOPTER SITE FOR DEFENSE UNTIL BACKUP UNIT HASENTERED $PITCH_0.8 .G5 $PITCH_0.5 .G3"
+  },
+  {
+    "id": "unknown_forces",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Вторжение неизвестной группировки (ПХ)",
+    "subtitles": "<b><color=#FF4500>C.A.S.S.I.E.</color> | Внимание всему персоналу: Рапорт от сотрудника <color=#AFEEEE>внешнего сектора</color>: На территорию объекта было обнаружено совершение террористического акта неизвестными группами лиц.",
+    "spoken": "$PITCH_0.155 .G4 $PITCH_0.15 .G4 $PITCH_0.16 .G4 $PITCH_0.85 BELL_START . $PITCH_0.91 ATTENTION ALL SITE PERSONNEL . REPORT FROM AN EXTERNAL SECTOR OPERATIVE . AN UNKNOWN FORCES WAS SPOTTED TO HAVE A INSURGENCY ACTIVITY ON THE AREA . . $PITCH_0.725 BELL_END"
+  },
+  {
+    "id": "sector_cleared",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Сектор зачищен МОГ, вторженцы уничтожены",
+    "subtitles": "<color=#8B8B05><b>ВНИМАНИЕ</color> | Всему персоналу: <color=#00008B>МОГ Ню-7</color> вошла на сектор «<color=red>А</color>». Отряд обнаружен на определённом секторе. Вторженцы были уничтожены. Теперь Фонд имеет полный контроль над сектором «<color=red>А</color>». </b>",
+    "spoken": "$PITCH_0.25 .G5 .G5 . $PITCH_0.94 ATTENTION TO ALL PERSONNEL . MTFUNIT NU 7 HAS ENTERED ON SECTOR NATO_A . . SQUAD DETECTED ON DESIGNATED SECTOR . . INTRUDER WAS DESTROYED . SCP FOUNDATION NOW HAVE FULL CONTROL UNDER SECTOR NATO_A . $PITCH_0.8 .G5 .G5 $PITCH_0.5 .G5"
+  },
+  {
+    "id": "gate_breached",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Ворота взломаны неизвестным устройством",
+    "subtitles": "<color=#C50000><b> ОПАСНОСТЬ! </b></color><color=#FAFF86>\n<color=#FAFF86> Гермоворота </color></color><b><color=#228B22>\"Альфа\"</color></b><color=#FAFF86> были взломаны неизвестным устройством. \n<color=#FAFF86>Всему оставшемуся персоналу рекомендуется укрыться в безопасном месте. .</color> \n[<color=blue><i>ГБР</color> прибудет в течение...] </i>\n<color=#C50000>[10 МИНУТ]</color>",
+    "spoken": ". . . . $PITCH_0.25 .G4 . .G4 . $PITCH_0.95 DANGER . GATE NATO_A $STUTT_0.01_0.08_1 WAS BREACHED BY AN UNKNOWN DEVICE . ALL REMAINING PERSONNEL ARE ADVISED TO TAKE SHELTER IN A SAFE LOCATION . . G B R UNIT HASENTERED IN TMINUS .G4 .G7 10 MINUTES"
+  },
+  {
+    "id": "unknown_helicopter",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Обнаружен неавторизованный вертолёт",
+    "subtitles": "<color=#00FF00><b>[Оповещение]</b></color> Отчёт от <color=#00ffff>Командующего</color> <color=#808080>ССБ</color> Внешнего Периметра <color=green>принят</color>. \n<color=#00FF00><b>[Оповещение]</b></color> Ситуация <color=green>стабильная</color> и находится под <color=#00CCCC><b>контролем</color></b>.\n<color=#00FF00><b>[Оповещение]</b></color> Издалека обнаружено <color=red>неавторизованный</color> вертолёт.",
+    "spoken": "$PITCH_0.19 .G3 $PITCH_0.18 .G3 $PITCH_0.96 REPORT FROM OUTSIDE SECURITY TEAM COMMANDER ACCEPTED . . CONDITION STABLE AND UNDER CONTROL . . UNAUTHORIZED HELICOPTER DETECTED FROM FAR AWAY $PITCH_2 .G5 .G5 $PITCH_1.5 .G5"
+  },
+  {
+    "id": "gate_auth_unlock",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Авторизация и временное снятие блокировки ворот",
+    "subtitles": "<b><color=green>[ОПОВЕЩЕНИЕ]</color>: Процедура авторизации... <color=#0047AB>Оперативник</color> с 3-уровнем доступа, <color=green>авторизован</color>. Блокировка Ворот «<color=blue>Б</color>» была деактивирована на 30-секунд для входа во внутреннюю часть комплекса. Добро пожаловать комплекс, Сержант <color=#0047AB>Группы</color>. </b>",
+    "spoken": "$PITCH_0.25 .G5 .G5 . $PITCH_0.95 PROCESS AUTHORIZED . $PITCH_1 .G3 $PITCH_1.1 .G3 $PITCH_1.2 .G3 $PITCH_1.3 .G3 $PITCH_1.4 .G3 $PITCH_1.5 .G3 $PITCH_1.55 .G3 $PITCH_1.6 .G3 $PITCH_1.65 .G3 $PITCH_1.7 .G3 $PITCH_1.75 .G3 $PITCH_1.8 .G3 $PITCH_1.85 .G3 $PITCH_1.9 .G3 $PITCH_1.95 .G3 $PITCH_2 .G3 .G3 .G3 .G3 .G3 $PITCH_0.95 UNIT WITH 3 LEVEL OF ACCESS . .G1 . . .G1 . AUTHORIZED . LOCKDOWN GATE NATO_B WAS DEACTIVATED ON TMINUS . 30 SECONDS FOR ENTRANCE IN INTERNAL COMPLEX . . WELCOME TO FACILITY . SENIOR UNIT"
+  },
+  {
+    "id": "lockdown_off",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Протокол блокировки деактивирован",
+    "subtitles": "<b><color=#6972ff>P-L-1</color> | Статус: <color=#ba1818>Деактивирован</color>. \n<b><color=#6972ff>P-L-1</color> | Внимание всему персоналу: входные гермоврата была разблокированы.",
+    "spoken": "$PITCH_0.8 $STUTTER_0.143_0.33_0.43 .G5 $PITCH_1 .G5 BELL_START P L 1 . STATUS DEACTIVATED . . . $PITCH_0.96 ATTENTION TO ALL PERSONNEL . THE ENTRANCE GATE WERE AN LOCKED"
+  },
+  {
+    "id": "checkpoint_lock",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Блокировка КПП ЛЗС",
+    "subtitles": "Запрос принят. \nАктивирован протокол \"Катаракт\". Уровень-1 \nБлокировка <color=green>КПП</color> легкой зоны содержания.",
+    "spoken": ".G1 QUERY ACCEPTED . $PITCH_0.9 ACTIVATION PROTOCOL KAPPA $SPAC_0.2 TERA K $SPAC_0.1 AT $SPAC_0.1 .G1 . LEVEL 1 . CHECKPOINT LOCK OF LIGHT CONTAINMENT ZONE"
+  },
+  {
+    "id": "power_failure",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Критический сбой электроснабжения, резервные генераторы",
+    "subtitles": "<color=red>Внимание!</color></b> Обнаружена критическая неисправность в системе электроснабжения комплекса. <color=#18C2FF><i>Резервные генераторы будут автоматически включены в ближайшее время.</i></color>",
+    "spoken": "$PITCH_0.15 .G4 $PITCH_0.16 .G4 $PITCH_0.15 .G4 $PITCH_0.95 . EMERGENCY ALERT . CRITICAL FACILITY ELECTRIC SYSTEM FAILURE . BACKUP GENERATORS WILL BE ACTIVATED . PLEASE STANDBY $PITCH_0.8 .G5 .G5 $PITCH_0.5 .G3"
+  },
+  {
+    "id": "repair_report",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Отчёт о починке систем",
+    "subtitles": "<b><color=#FFDAB9>C.A.S.S.I.E.-DIAGNOSTIC</color> | Внимание: Отчёт о починки системы...",
+    "spoken": "ATTENTION . REPORT FOR REPAIRING SYSTEM MALFUNCTION . $PITCH_0.24 .G3 $PITCH_0.21 .G3 $PITCH_1"
+  },
+  {
+    "id": "tesla_on",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Тесла-ворота ТЗС активированы",
+    "subtitles": "<b> <color=#ff4747>P-S-3</color>| Статус: <color=#6ccc23>активирован</color> | Всему персоналу: ворота-тесла на территории <color=#54050D>ТЗС</color> были активированы.",
+    "spoken": "$PITCH_0.8 $STUTT_0.3_0.08_7 .G5 $PITCH_1 .G5 BELL_START P S 3 . STATUS ACTIVATED . ATTENTION TO ALL PERSONNEL . $PITCH_0.8 TESLA GATES ON AREA HEAVY CONTAINMENT ZONE WAS ACTIVATED . BELL_END"
+  },
+  {
+    "id": "lockdown_decont",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Код блокировки + ожидается обеззараживание ЛЗС",
+    "subtitles": "Комплекс введен в режим блокировки <color=#00FF18>ЗЕЛЕНЫЙ</color>. Всему персоналу рекомендуется действовать согласно стандартным протоколам эвакуации, пока отряд МОГ не прибудет к месту назначения. Ожидается процедура Обеззараживания Легкой зоны содержания",
+    "spoken": "$STUTT_0_0.08_10 $PITCH_0.3 .G4 $SLEEP_2 $PITCH_1 FACILITY LOCKDOWN CODE INITIATED $SLEEP_1.3 GREEN $SLEEP_1 ALLREMAINING $SLEEP_9.2 A $SLEEP_0.2 WAITING LIGHT CONTAINMENT ZONE DECONTAMINATION PROCEDURE"
+  },
+  {
+    "id": "warhead_start",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Детонация боеголовки Альфа инициирована",
+    "subtitles": "<b><color=#008080>САР-1</color> | Статус: <color=#6ccc23>Активирован</color>. \n<b><color=#646eff>C.A.S.S.I.E</color> | Внимание всему персоналу: детонация боеголовок класса «Альфа» была <color=#6ccc23>успешно</color> инициирована. Подрыв подземной части комплекса произойдет в течении [90] секунд.",
+    "spoken": "$PITCH_0.8 $STUTT_0.3_0.08_7 .G5 $PITCH_1 .G5 BELL_START C A P 1 . STATUS ACTIVATED . . ATTENTION TO ALL PERSONNEL . $PITCH_0.94 DETONATION ALL WARHEAD CLASS NATO_A SUCCESSFULLY INITIATED . . DETONATION COMPLEX STARTING IN TMINUS . $PITCH_0.91 90 SECONDS . $PITCH_0.2 .G4 $PITCH_0.16 .G4 $PITCH_0.15 .G4 $PITCH_0.14 .G4 $PITCH_0.13 .G4 $PITCH_0.12 .G4 $PITCH_0.1 .G4 $PITCH_0.09 .G4"
+  },
+  {
+    "id": "intercom_report",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Напоминание: доложить обстановку в интерком",
+    "subtitles": "<b>[КПК]</b> <color=#FFFEBC>Персонал комплекса, <color=red>Напоминание\n<i><b>[КПК]</b> <color=#FFFEBC>Доложите обстановку в <color=yellow>интерком</color>.",
+    "spoken": ". $PITCH_0.5 .G2 .G2 . .G2 .G2 . $PITCH_0.98 FOUNDATION PERSONNEL . REMINDING . REPORT STATUS TO THE INTERCOM . .G6 BELL_END"
+  },
+  {
+    "id": "reminder_activity",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Напоминание: сообщать СБ о странной активности",
+    "subtitles": "<b><color=#85f5a4>Напоминание всему персоналу</color> |<b> Если вы увидели странную активность, просьба сообщить это ближайшему <color=#A0A0A0>сотруднику безопасности</color>.",
+    "spoken": ". $PITCH_3 .G4 .G5 .G3 $PITCH_3.5 .G4 .G5 .G3 $PITCH_0.95 REMIND TO ALL PERSONNEL $PITCH_0.3 .G5 $PITCH_0.95 $STUTTER_0.143_0.33_0.43 .G5 . $PITCH_0.83 IF YOU SEE ANY UNSPECIFIED ACTIVITY . PLEASE REPORT THIS TO ANY UNIT SECURITY SERVICE $PITCH_0.3 .G5 $PITCH_0.2 .G5"
+  },
+  {
+    "id": "data_breach",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Несанкционированный доступ к данным, протокол шифрования",
+    "subtitles": "<color=#00FF00><b>[Система-Оповещение]</b></color> Внимание сотрудникам службы безопасности!  \n<color=#00FF00><b>[Система-Оповещение]</b></color> Обнаружен несанкционированный доступ к данным сервисов...  \n<color=#00FF00><b>[Система-Оповещение]</b></color> Стандартный протокол шифрования...  \n<color=#00FF00><b>[Система-Оповещение]</b></color> Активирован.",
+    "spoken": "$PITCH_0.97 . . . ATTENTION TO ALL SECURITY PERSONNEL . . UNAUTHORIZED ACCESS TO THE INFORMATION OF THE NORTH WAS DETECTED . STANDARD CODE PROTOCOL . .G2 .G2 .G2 .G2 .G3 .G3 .G3 .G3 .G5 .G5 .G5 .G4 ACTIVATED"
+  },
+  {
+    "id": "scp_theft",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Кража карманного SCP классом D",
+    "subtitles": "<b><color=#8B0000>ТРЕВОГА</color> | Всему персоналу: обнаружена кража карманного <color=#9A1010>SCP-207</color> класса «<color=yellow>Euclid</color>» из своей камеры содержания персоналом <color=#EF7D0B>класса D</color>.",
+    "spoken": "$PITCH_0.16 .G4 .G4 $PITCH_0.98 . ATTENTION TO ALL PERSONNEL . . DETECTED TAKE POCKET SCP 2 0 7 CLASS EUCLID FROM THEIR CONTAINMENT CHAMBER BY CLASSD PERSONNEL . . $PITCH_0.8 .G5 .G5 $PITCH_0.3 .G5"
+  },
+  {
+    "id": "intro_standby",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Разгон: CASSIE в режиме ожидания",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Внимание: «<color=#4DFFB8>Центральная Автономная Сервисная Система для Внутрикомплексных Оповещений</color>» находится в режиме ожидания...",
+    "spoken": "$PITCH_0.97 BELL_START $PITCH_0.95 . ATTENTION . CASSIESYSTEM LOCATED IN STANDBY MODE . $PITCH_0.9 BELL_END $PITCH_0.95"
+  },
+  {
+    "id": "intro_self_diagnostic",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Разгон: режим самодиагностики CASSIE",
+    "subtitles": "<b><color=#646eff>C.A.S.S.I.E</color> | Инициализируется режим самодиагностики <color=#808080>[C.A.S.S.I.E]</color>. \n<b><color=#646eff>C.A.S.S.I.E</color> | Модуль <color=#808080>«DMM»</color>: <color=#ba1818>Деактивирован</color>.",
+    "spoken": "INITIALIZING CASSIE SYSTEM SELF DIAGNOSTIC MODE . . . MODULE D M M HAS BEEN DEACTIVATED"
+  },
+  {
+    "id": "intro_analysis_ok",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Разгон: анализ завершён, все системы стабильны",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Анализ завершён. Все системы стабильны и в рабочем режиме.",
+    "spoken": ". . . . . . . . ANALYSIS FINISHED . ALL SYSTEMS STABLE AND IN THE WORK MODE"
+  },
+  {
+    "id": "intro_date_temp",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Разгон: дата и температура в секторах",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Сегодня 12 мая 2012 года. Температура в <color=#FA8072>подземном секторе</color> - <color=#F0E68C>24°C</color>, или <color=#F0E68C>74℉</color>. Температура во <color=#AFEEEE>внутреннем секторе</color> и на <color=#AFEEEE>внешнем секторе</color> - <color=#F0E68C>11°C</color>, или <color=#F0E68C>51.6℉</color>.",
+    "spoken": ". . TODAY AT 12 MAY 2 THOUSAND AND 12 YEAR . TEMPERATURE IN UNDER GROUND SECTOR FACILITY 24 BY CELSIUS OR 74 FAHRENHEIT . TEMPERATURE IN INTERNAL SECTOR AND EXTERNAL SECTOR FACILITY 11 BY CELSIUS OR 51 AND 6 FAHRENHEIT"
+  },
+  {
+    "id": "intro_authorized",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Разгон: персонал авторизован, протоколы содержания стабильны",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Весь персонал был <color=#4DFFB8>авторизован</color>. Все субъекты сдерживаются и все протоколы сдерживания стабильны.",
+    "spoken": ". . ALL PERSONNEL WAS AUTHORIZED BY SECURITY SYSTEMS . ALL SCPSUBJECTS HAS CONTAINING AND ALL SECURITY PROTOCOL BY CONTAINMENT PROCEDUREST . STABLE"
+  },
+  {
+    "id": "intro_security_orders",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Разгон: СБ к интеркому, персонал на рабочие места",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | Внимание <color=#808080>Подразделениям СБ</color>: Пройдите к “ЦГВ” и ожидайте выдачи приказов. Персоналу требуется пройти на рабочие места и приступить к выполнению задач.",
+    "spoken": ". . ATTENTION TO SECURITY GUARD . KEEP GOING TO INTERCOM AND WAIT RECIEVEING ORDER . SITE PERSONNEL PROCEED TO YOUR WORK LOCATION AND START HIS"
+  },
+  {
+    "id": "intro_motto",
+    "profiles": [
+      "rp"
+    ],
+    "situation": "Разгон: девиз «Обезопасить. Удержать. Сохранить.»",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color> | И помните, наша задача - <color=#FAEBD7>Обезопасить . Удержать . Сохранить .</color>.",
+    "spoken": ". . AND REMIND . YOU ARE TASK . SECURE . CONTAIN . PROTECT . $PITCH_0.91 BELL_END"
+  },
+  {
+    "id": "tpl_scp_breach",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: нарушение содержания SCP (scp)",
+    "subtitles": "<b><color=#FF4500>C.A.S.S.I.E.</color></b> | Внимание всему персоналу: зафиксировано нарушение условий содержания «<color=#DAA520>SCP-{scp}</color>». Службе безопасности действовать по стандартному протоколу.",
+    "spoken": "$PITCH_0.15 .G4 $PITCH_0.16 .G4 $PITCH_0.95 . ATTENTION ALL PERSONNEL . CONTAINMENT BREACH DETECTED . SCPSUBJECT {scp} . ALL SECURITY PERSONNEL PROCEED WITH STANDARD PROTOCOL $PITCH_0.8 .G5 .G5 $PITCH_0.5 .G3"
+  },
+  {
+    "id": "tpl_scp_contained",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: SCP помещён на содержание (scp)",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color></b> | «<color=#DAA520>SCP-{scp}</color>» успешно помещён на содержание.",
+    "spoken": "BELL_START $PITCH_0.95 . SCPSUBJECT {scp} CONTAINED SUCCESSFULLY . $PITCH_0.9 BELL_END"
+  },
+  {
+    "id": "tpl_scp_terminated",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: SCP ликвидирован, причина не установлена (scp)",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color></b> | «<color=#DAA520>SCP-{scp}</color>» ликвидирован. Причина ликвидации не установлена.",
+    "spoken": "BELL_START $PITCH_0.95 . SCPSUBJECT {scp} SUCCESSFULLY TERMINATED . TERMINATION CAUSE UNSPECIFIED . $PITCH_0.9 BELL_END"
+  },
+  {
+    "id": "tpl_zone_lockdown",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: блокировка зоны на N минут (zone, minutes)",
+    "subtitles": "<b><color=#FF4500>C.A.S.S.I.E.</color></b> | Внимание: в секторе «<color=#FAFAD2>{zone}</color>» введена блокировка на <b>{minutes}</b> мин. Ожидайте указаний.",
+    "spoken": "$PITCH_0.3 .G4 $PITCH_0.95 . ATTENTION . FACILITY LOCKDOWN INITIATED IN {zone} . FOR {minutes} MINUTES . PLEASE STANDBY"
+  },
+  {
+    "id": "tpl_zone_power_failure",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: сбой электроснабжения в зоне (zone)",
+    "subtitles": "<b><color=#FF4500>C.A.S.S.I.E.</color></b> | Внимание: сбой электроснабжения в секторе «<color=#FAFAD2>{zone}</color>». <color=#18C2FF>Резервные генераторы будут включены.</color>",
+    "spoken": "$PITCH_0.15 .G4 $PITCH_0.16 .G4 $PITCH_0.95 . WARNING . ELECTRIC SYSTEM FAILURE IN {zone} . BACKUP GENERATORS WILL BE ACTIVATED"
+  },
+  {
+    "id": "tpl_zone_evacuate",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: немедленно покинуть зону (zone)",
+    "subtitles": "<b><color=#FF4500>C.A.S.S.I.E.</color></b> | Всему персоналу: немедленно покинуть сектор «<color=#FAFAD2>{zone}</color>».",
+    "spoken": "$PITCH_0.15 .G4 $PITCH_0.16 .G4 $PITCH_0.95 . ATTENTION ALL PERSONNEL . EVACUATE {zone} IMMEDIATELY"
+  },
+  {
+    "id": "tpl_mtf_eta",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: МОГ прибудет через N минут (minutes)",
+    "subtitles": "<b>Всему персоналу:</b> <color=#003ECA>МОГ Эпсилон-11</color> прибудет на объект через <b>{minutes}</b> мин.",
+    "spoken": "BELL_START . ATTENTION TO ALL PERSONNEL . MTFUNIT EPSILON 11 WILL ARRIVAL AT THE FACILITY IN TMINUS {minutes} MINUTES . $PITCH_0.8 .G5 .G5 $PITCH_0.3 .G5"
+  },
+  {
+    "id": "tpl_mtf_entered",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: МОГ вошла в комплекс, позывной и сколько SCP осталось (nato, number, scps)",
+    "subtitles": "<b>Внимание</b> всему персоналу! <color=#003ECA>МОГ Эпсилон-11</color> с позывным <b>{nato}-{number}</b> прибыла в комплекс. Ожидают повторного содержания SCP-объектов: <color=#EC2121>{scps}</color>.",
+    "spoken": "BELL_START ATTENTION TO ALL PERSONNEL . MTFUNIT EPSILON 11 DESIGNATED {nato} {number} HASENTERED ALLREMAINING AWAITINGRECONTAINMENT {scps} SCPSUBJECT"
+  },
+  {
+    "id": "tpl_decont_eta",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Шаблон: обеззараживание ЛЗС через N минут (minutes)",
+    "subtitles": "<b><color=#FF4500>C.A.S.S.I.E.</color></b> | Внимание всему персоналу: обеззараживание <color=yellow>Лёгкой зоны содержания</color> через <b>{minutes}</b> мин.",
+    "spoken": "ATTENTION ALL PERSONNEL . LIGHT CONTAINMENT ZONE DECONTAMINATION IN TMINUS {minutes} MINUTES"
+  },
+  {
+    "id": "round_end",
+    "profiles": [
+      "rp",
+      "classic"
+    ],
+    "situation": "Итог раунда (шлёт сам плагин в конце раунда; escaped, scps)",
+    "subtitles": "<b><color=#4DFFB8>C.A.S.S.I.E.</color></b> | Отчёт о состоянии комплекса: сбежало <b>{escaped}</b>, SCP-объектов на свободе: <b>{scps}</b>.",
+    "spoken": "$PITCH_0.92 BELL_START $PITCH_0.95 . ATTENTION ALL SITE PERSONNEL . FACILITY STATUS REPORT . {escaped} PERSONNEL ESCAPE . {scps} SCPSUBJECT REMAINING . $PITCH_0.89 BELL_END"
+  }
+]
