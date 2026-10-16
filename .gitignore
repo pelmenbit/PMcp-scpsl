@@ -1,0 +1,10 @@
+bin/
+obj/
+.vs/
+*.user
+*.suo
+libs/
+*.dll
+*.pdb
+tests/
+run-tests.ps1
